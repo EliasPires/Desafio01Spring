@@ -35,14 +35,35 @@ Injeção de Dependência (DI): o OrderService não cria diretamente uma instân
 
 Componentização: cada classe possui uma única responsabilidade, facilitando a manutenção e testabilidade do código. <br>
 
-🧰 **Tecnologias Utilizadas**
+🧰 **Tecnologias Utilizadas** <br>
 Java 17+ <br>
 Spring Boot <br>
 Maven <br>
 
-🧪 Como Executar
+
+🧪 **Como Executar**
 
 Clone o repositório:
 ```bash
 git clone https://github.com/seu-usuario/desafio-componentes-injecao.git
 ```
+
+Acesse o diretório do projeto:
+```bash
+cd desafio-componentes-injecao
+```
+
+Execute o projeto:
+```bash
+./mvnw spring-boot:run
+```
+
+📝 **Exemplo de Saída**
+```yaml
+Pedido código 1034
+Valor total: R$ 132.00
+```
+
+📚 **Conclusão**
+
+Este desafio reforçou a importância dos conceitos fundamentais do Spring Framework, como a injeção de dependência e a inversão de controle, mostrando na prática como eles tornam o código mais limpo, flexível e escalável.
